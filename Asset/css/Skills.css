@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./../Img/bkg.png');
+    background-size: cover;
+}
+/* Skills */
+.skill{
+    width: 100%;
+    padding: 80px 200px;
+    transition: 0.3s ease;
+}
+
+.html, .css, .javascript{
+    display: flex
+}
+.icon-container{
+    font-size: 100px;
+    width: 20%;
+    margin-bottom: 20px;
+   
+} 
+.skill-description{
+    font-size: 17px; 
+} 
+
+
+@media (max-width:900px){
+  
+    .skill{ 
+        padding: 50px 50px;
+    } 
+}

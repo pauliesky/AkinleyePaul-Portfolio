@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('./../Img/bkg.png');
+    background-size: cover;
+    
+}
+
+main{
+    display: flex;
+    padding: 80px 200px;
+    transition: 0.3s ease;
+}
+
+.info{
+    width: 70%;
+    line-height: 1.5;
+    
+    
+}
+
+.info h1{
+    font-size: 23px;
+    font-weight: 700;
+    
+}
+
+.info p{
+    font-size: 15px
+} 
+.image{
+    width: 30%;
+}
+
+.image img{
+    width: 60%;
+    height: 18rem;
+    float: right;
+    border: 3px cyan solid;
+    border-radius: 30%;
+}
+
+
+
+@media (max-width:900px){
+  
+    main{
+        display: flex;
+        padding: 50px 50px;
+    }
+    
+    .info{
+        width: 30%;
+        line-height: 1.5;
+    }
+}

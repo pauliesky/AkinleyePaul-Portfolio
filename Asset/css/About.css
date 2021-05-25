@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./../Img/bkg.png');
+    background-size: cover;
+}
+
+.about{
+    padding: 2px 200px;
+}
+.image{
+    height: 300px;
+    width: 70%;
+   
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.about-me{
+     line-height: 1.5;
+}
+
+@media (max-width:900px){
+  
+    .about{ 
+        padding: 50px 50px;
+    } 
+}

@@ -1,0 +1,61 @@
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 200px;
+    background:transparent;
+    
+    transition: 0.3s ease;
+}
+
+.logo .log{
+    font-size: 25px;
+}
+
+.hamburger{
+    display: none; 
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.nav-item .nav-links{
+    font-size: 17px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav-item .nav-links:hover{
+    text-decoration: underline;
+    background: white;
+    color:black;
+    border-radius: 5px;
+}
+
+/* Media Query */
+@media (max-width:900px){
+    .hamburger{
+    display: block;
+    font-size: 50px;
+    }
+    
+    nav{
+        display: flex;
+        justify-content:space-between;
+        padding: 20px 50px;
+    }
+    .nav-item{
+        display: none;
+    }
+
+    .open-nav-item{
+        display: flex;
+        flex-direction:column;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .nav-links{
+        text-align: right;
+
+    }
+
+}

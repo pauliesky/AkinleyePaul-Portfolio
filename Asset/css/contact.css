@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./../Img/bkg.png');
+    background-size: cover;
+}
+
+main{
+    /* display: flex; */
+    padding: 80px 200px;
+    transition: 0.3s ease;
+}
+form{
+    
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    float: right;
+    list-style: none;
+
+}
+h1{
+    text-align: center;
+    font-size: 30px; 
+    margin-bottom: 10px;
+    }
+.main{
+    padding: 5px 20px;
+    background: #e6e0e0;
+}
+
+label{
+    font-size: 10px;
+    margin-bottom: 1px;
+} 
+input, textarea{
+    border: 1px solid #0f84c7;
+    font-size: 15px;
+    padding:5px ;
+    border-radius: 5px;
+}
+textarea{
+    width: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
+}
+.one{
+    margin-bottom: 10px;
+}
+.btn{
+    font-size: 20px;
+    background: rgb(129, 92, 228); 
+    border-radius: 2px;
+    padding: 6px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;   
+}
