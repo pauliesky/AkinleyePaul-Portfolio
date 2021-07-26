@@ -6,35 +6,57 @@
 
 
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url('./../Img/bkg.png');
-    background-size: cover;
+   font-family: 'Roboto', sans-serif;
+   background-image: url(../Img/filler.png);
+   background-size: cover;
     
 }
 
-main{
-    display: flex;
-    padding: 80px 200px;
+
+main {
+    /* display: flex; */
+    padding: 80px 100px;
     transition: 0.3s ease;
+    height: 100vh;
+   
+    
 }
 
 .info{
-    width: 70%;
+    max-width:500px;
     line-height: 1.5;
-    
-    
-}
-
-.info h1{
-    font-size: 23px;
-    font-weight: 700;
+    margin: auto;
+    /* background-color: red; */
+    text-align: center;
+    font-size: 20px;
     
 }
+#MoreInfo{
+    border-radius: white 2px;
+    background-color: transparent;
+    width: 10rem;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border: solid 2px white;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
 
+#MoreInfo, a:hover{
+    background-color: teal;
+}
+h1, p, a{
+   color: white;
+}
+/* 
 .info p{
     font-size: 15px
-} 
-.image{
+}  */
+/* .image{
     width: 30%;
 }
 
@@ -45,7 +67,7 @@ main{
     border: 3px cyan solid;
     border-radius: 30%;
 }
-
+ */
 
 
 @media (max-width:900px){
