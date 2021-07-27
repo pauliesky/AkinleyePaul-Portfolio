@@ -5,11 +5,69 @@
 }
 
 body{
-    background-image: url('./../Img/bkg.png');
-    background-size: cover;
+background-color: none;
+    /* background-image: url('./../Img/bkg.png');
+    background-size: cover; */
 }
 
-.about{
+#Container{
+    display:grid;
+    background-color: whitesmoke;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    /* width:900px; */
+    /* padding:auto; */
+    margin:20px 50px;
+}
+
+.box, img{
+    height: 270px;
+    width: 400px;
+    background-color: gainsboro;
+    margin: 10px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+
+}
+
+span > h2 {
+    text-align: center;
+    background-color:none;
+    margin: auto ;
+    width: 200px;
+    align-content: center;
+    color: rgb(0, 166, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about{
     padding: 2px 200px;
 }
 .image{
@@ -24,7 +82,7 @@ body{
 }
 .about-me{
      line-height: 1.5;
-}
+} */
 
 @media (max-width:900px){
   
