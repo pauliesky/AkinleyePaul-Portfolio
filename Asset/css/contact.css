@@ -4,19 +4,28 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url('./../Img/bkg.png');
-    background-size: cover;
-}
+
 
 main{
-    /* display: flex; */
-    padding: 80px 200px;
-    transition: 0.3s ease;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
 }
 form{
     
-    padding: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    
+    
 }
 a{
     text-decoration: none;
@@ -48,12 +57,12 @@ input, textarea{
     border-radius: 5px;
 }
 textarea{
-    width: 100px;
+    /* width: 100px;
     max-width: 100px;
-    min-width: 100px;
-    height: 80px;
-    min-height: 80px;
-    max-height: 80px;
+    min-width: 100px; */
+    /* height: 80px; */
+    /* min-height: 80px;
+    max-height: 80px; */
 }
 .one{
     margin-bottom: 10px;

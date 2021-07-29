@@ -10,6 +10,7 @@ background-color: none;
     background-size: cover; */
 }
 
+
 #Container{
     display:grid;
     background-color: whitesmoke;
@@ -20,7 +21,7 @@ background-color: none;
     margin:20px 50px;
 }
 
-.box, img{
+.box, img {
     height: 270px;
     width: 400px;
     background-color: gainsboro;
@@ -39,8 +40,35 @@ span > h2 {
     color: rgb(0, 166, 255);
 }
 
+#About{
+display: flex;
+justify-content: space-around;
+background-color: whitesmoke;
+margin-top: 30px;
+margin-bottom: 30px;
+height: 600px;
+}
+#my-image{
+    height: 500px;
+    box-shadow: 5px 5px 15px rgb(102, 101, 101) ;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+footer{
+    background-color: rgb(36, 36, 36);
+    height: 25px;
+
+}
 
 
+@media (max-width:900px){
+  
+    .about{ 
+        padding: 50px 50px;
+    } 
+}
 
 
 
@@ -84,9 +112,3 @@ span > h2 {
      line-height: 1.5;
 } */
 
-@media (max-width:900px){
-  
-    .about{ 
-        padding: 50px 50px;
-    } 
-}

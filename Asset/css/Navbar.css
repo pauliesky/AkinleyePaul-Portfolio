@@ -2,14 +2,15 @@
 nav{
     display: flex;
     justify-content:space-between;
-    padding: 20px 200px;
-    background:transparent;
-    
+    padding: 10px 200px;
+    background:rgb(36, 36, 36);
     transition: 0.3s ease;
 }
 
 .logo .log{
     font-size: 25px;
+    color: white;
+    text-decoration: none;
 }
 
 .hamburger{
@@ -20,9 +21,9 @@ nav{
 
 .nav-item .nav-links{
     font-size: 17px;
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .nav-item .nav-links:hover{
     text-decoration: underline;
