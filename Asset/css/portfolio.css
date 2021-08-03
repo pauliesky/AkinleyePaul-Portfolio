@@ -6,7 +6,7 @@
 
 
 body{
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
    background-image: url(../Img/filler.png);
    background-size: cover;
 }
@@ -23,26 +23,25 @@ body{
     height: 100vh;
 }
 
-#MoreInfo{
-    border-radius: 5px;
-    border: solid 2px white;
+.InfoLink{
+    font-size: 20px;
+    height: 20px;
     background-color: transparent;
-    width: 100px;
-    padding: 2px;
-    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
 }
 
-.link{
-    background-color: transparent;
-    border: none;
-    text-decoration: white;
+.InfoLink:hover{
+background-color: teal;
 }
 
-#MoreInfo:hover{
-    background-color: teal;
-}
 h1, p{
    color: white;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 2px;
 }
 
 

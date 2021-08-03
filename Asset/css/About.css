@@ -4,24 +4,114 @@
     box-sizing: border-box;
 }
 
-body{
-background-color: none;
-    /* background-image: url('./../Img/bkg.png');
-    background-size: cover; */
+main{
+    margin: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(106, 106, 106, 0.932);
+}
+.image{
+    width: 400px;
+    height: 500px;
+}
+.image > img{
+    height: 400px;
+    width: 300px;
+}
+.Skill{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Skill > .image, .Skill-info{
+    background-color: #eee;
+    padding: 1em;
+}
+.Skill > div:nth-child(odd){
+    background-color: #ddd;
+}
+
+.Skills{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 2em;
+    width: 200px;
+    /* border: 2px blue solid; */
+    margin-top:20px;
+    /* padding: 50px; */
+color:rgba(106, 106, 106, 0.932);
+    
+}
+.Skills > div{
+    /* border: solid red 2px; */
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(106, 106, 106, 0.932);
+}
+.Skill-info{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+}
+.Skill-info > h5{
+    font-size: 15px;
+}
+.myskill{
+margin-top: 100px;
+border: 2px solid greenyellow;
+padding: none;
+
+
+}
+.myskill > h4{
+text-align: center;
+border: 2px solid purple;
+background-color: rgba(106, 106, 106, 0.932);
+color: white;
 }
 
 
-#Container{
-    display:grid;
-    background-color: whitesmoke;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #Container{ */
+    /* display:grid; */
+    /* background-color: whitesmoke; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-rows: 300px 300px; */
     /* width:900px; */
     /* padding:auto; */
-    margin:20px 50px;
-}
+    /* margin:20px 50px; */
+/* } */
 
-.box, img {
+/* .box, img {
     height: 270px;
     width: 400px;
     background-color: gainsboro;
@@ -40,21 +130,7 @@ span > h2 {
     color: rgb(0, 166, 255);
 }
 
-#About{
-display: flex;
-justify-content: space-around;
-background-color: whitesmoke;
-margin-top: 30px;
-margin-bottom: 30px;
-height: 600px;
-}
-#my-image{
-    height: 500px;
-    box-shadow: 5px 5px 15px rgb(102, 101, 101) ;
-    border-radius: 5px;
-    margin-top: 50px;
 
-}
 
 footer{
     background-color: rgb(36, 36, 36);
@@ -68,7 +144,7 @@ footer{
     .about{ 
         padding: 50px 50px;
     } 
-}
+} */
 
 
 
